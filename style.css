@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size:large;
+}
+
+.home{
+    transition: 0.4s;
+    font-size: 30px;
+
+}
+
+.home:hover{
+    color: white;
+}
+
+section a{
+    text-decoration: none;
+    transition: 0.2s;
+    color: rgb(70, 33, 33);
+}
+
+section a:hover{
+    color: blue;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #eb1414;
+    color: white;
+    font-size: 30px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.wrapper > div{
+    background: #eee;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+
+
+.pic{
+    position: relative;
+    text-align: center;
+}
+
+.img{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: 4px solid black;
+}
+
+.info {
+    text-align: center;
+    margin: 10px;
+}
+
+.links{
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.button {
+    background-color: #4798f5;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease-in;
+  }
+
+.button:hover {
+    background-color: #AE1C28;
+
+}
+
+.link_1{
+
+    display: inline-block;
+    line-height: 2.5;
+
+    padding-right: 70px;
+}
+  
+.link_2{
+    display: inline-block;
+    margin-right: 70px;
+    line-height: 2.5;
+}
+
+.link_3{
+    display: inline-block;
+    margin-right: 70px;
+    line-height: 2.5;
+}
+
+.link_4{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 2.5;
+}
